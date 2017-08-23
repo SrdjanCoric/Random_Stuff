@@ -119,8 +119,10 @@
   13. Write down your definition of the Array#select method. Do not copy/paste from documentation; use your own words.
 
   14. Explain why both of the code below return an array containing the same elements. Explain the subtle difference between the two lines of code. Which one is the preferred option and why? 
-  `[1, 2, 3].map {|n| n + 1}` 
-  `[1, 2, 3].map {|n| n += 1}`
+  ```
+  [1, 2, 3].map {|n| n + 1}`
+  [1, 2, 3].map {|n| n += 1}
+  ```
 
   15. Some people don't fully understand the difference between map and select, and use map as they would select. However, they likely won't get the result they expected. Explain why the resulting arr is an array of booleans. 
   ```
